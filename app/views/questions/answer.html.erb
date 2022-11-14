@@ -1,0 +1,14 @@
+<div class="p-3">
+  <div class="py-2 p-3 border-start border-5 mb-3">
+    <%= @question %>
+    <br>
+    <em>-You</em>
+  </div>
+  <div class="py-2 p-3 border-start border-5 bg-warning bg-opacity-25">
+    <%= @result %>
+    <br>
+    <em>-Your coach</em>
+  </div>
+  <br>
+    <%= link_to "Ask another question", ask_path, class: "text-decoration-none"  %>
+</div>
